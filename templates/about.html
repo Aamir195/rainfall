@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>Rain.io - About</title>
+	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/all.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/feathericon.min.css') }}">
+	<link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/morris.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+</head>
+
+<body>
+	<div class="main-wrapper">
+		<div class="header">
+			<div class="header-left">
+				<a href="../" class="logo"> <img src="{{ url_for('static', filename='img/logo.png') }}" width="50" height="70" alt="logo">
+					<span class="logoclass">Rain.io</span> </a>
+				<a href="../" class="logo logo-small"> <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" width="30"
+						height="30"> </a>
+			</div>
+			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
+			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
+		</div>
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-inner slimscroll">
+				<div id="sidebar-menu" class="sidebar-menu">
+					<ul>
+						<li> <a href="../"><i class="fas fa-tachometer-alt"></i>
+								<span>Dashboard</span></a> </li>
+						<li class="list-divider"></li>
+						<li> <a href="../team"><i style="margin-left: 2px;" class="fas fa-users"></i> <span>Team</span></a> </li>
+						<li> <a href="../calendar"><i class="fas fa-calendar-alt"></i> <span>Calendar</span></a> </li>
+						<li class="active" > <a href="/about"><i class="fas fa-server"></i> <span>About Project</span></a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="page-wrapper">
+			<div class="content container-fluid">
+				<div class="page-header">
+					<div class="row">
+						<div class="col-sm-12 mt-5">
+							<h3 class="page-title mt-3"><b> About The Project </h3>
+							
+						</div>
+					</div>
+				</div>
+				<p>In order to create a innovative and balanced project we have used
+					TRIZ principle, also known as the theory of inventive problem solving. Here are the steps our team has followed: </p>
+				<h5 class="page-title mt-3"style="color:blue; font-size:20px;"><u>1.TRIZ:ORGANIZE</u> </h5>	
+				<p1><a style="color:rgb(30, 53, 53)">Segmentation:</a><br>
+					For making our project we have segmented our work into several segment, like
+					Data Collecting, Data Preprocessing, Model Making (using Machine learning)
+					and deployment. Every step is explained beloved.
+					<li><u>Data Collecting:</u> For making our Project ‘Rainfall Prediction’ we have
+					to collect some data. So, for this we collected our data from government
+					site.</li>
+					<li> <u>Data Preprocessing:</u> After getting the data, we have to do some
+					preprocessing on data. It will be helpful for modeling the better predictive
+					system. Like we have to do work on null/missing value, change some
+					data, data manipulation, etc.</li>
+					<li> <u>Model Making:</u> For making the precise prediction of rainfall we are
+					going to build some accurate model using Machine Learning and using
+					some tool.</li>
+					<li><u> Deployment:</u> For better visualization and for making easy to use for
+					any user we are going to make a frontend. For creating this we will use
+					Python, HTML, API, CSS, JavaScript etc.</li></p1>
+
+
+					<h5 class="page-title mt-3"style="color:blue; font-size:20px;"><u>2.TRIZ:COMPOSE</u> </h5>	
+				   <p1><a style="color:rgb(30, 53, 53)">Universality:</a><br>
+					To add universality to our project, we will be implementing the following
+					things:
+					<li> We will make our project in such a way that it will give predictions on
+					the basis of the input of the user.</li>
+				    <li> We will expand it to make predictions for each state in India.</li>
+					<li>We will also categorize danger or heavy rainfall regions for given inputs
+					and make visualization for the same.</li>
+					In this way our project will able to perform multiple task and suffice
+					different users needs.</p1>
+
+
+
+					<h5 class="page-title mt-3"style="color:blue; font-size:20px;"><u>3.TRIZ:PROCESS</u> </h5>	
+				   <p1> <li> <u>Continuity of useful Action:</u>
+						As we are going to train a different machine learning model for our project “Rain Fall
+						Prediction”.
+						For all these models we will definitely get different accuracy and precision. After comprising
+						all these models, a model which give higher accuracy and precision, we will continue with
+						that model.
+						From same model we will predict the rainfall prediction, and from the same model we will
+						make a model for a front-end.
+						And we will also change some features for better accuracy. In this way we will continue with
+						the most accurate work.</li>
+						<li> <u> Prior Action:</u>
+						Before making the models, we will do some preprocessing on our data. Which will help in
+						understanding the features and helpful in making decision.
+						We will do some visualization to better understand the data and also useful for making
+						training models which will give better prediction of rainfall.</li></p1>
+
+
+					<h5 class="page-title mt-3"style="color:blue; font-size:20px;"><u>4.TRIZ:INTERACTION</u> </h5>
+					<p1> <li><u>DYNAMICITY:</u>
+						As known, Dynamicity makes an object or its environment automatically adjust
+						for optimal performance at each stage of operation. The models will make better
+						predictions and also optimize space and time as and when required as we will
+						get new and refurbished data by studying different models. This will make the
+						flow better while reducing errors making the model self-analysed, providing
+						better results.</li>
+						
+						<li><u>EQUIPOTENTIALITY:</u>
+						The model will follow principles of Equipotentiality from the start. The required
+						data will be processed in the same way without differentiating the order of
+						values hence not decrementing the potential that every data has to make a
+						change in the result or provide with a better one.</li></p1>
+
+						<h5 class="page-title mt-3"style="color:blue; font-size:20px;"><u>5.TRIZ:SERVICES</u> </h5>
+
+						<p1><li><u> Mediator:</u>
+							Our project is divided into mainly three parts, frontend, backend and our
+							machine learning model. So here we will be using our backend as a mediator
+							that connects frontend with our machine learning model.</li>
+							<li><u> Self-service:</u>
+							So, after we have integrated the frontend, backend and the machine learning
+							model, it will be able to work on its on without external intervention. The user
+							will be directly able to get the results by interacting with our service.</li></p1>
+
+			</div>
+		</div>
+	</div>
+	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="{{ url_for('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='plugins/raphael/raphael.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='plugins/morris/morris.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/chart.morris.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
